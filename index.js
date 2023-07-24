@@ -7,6 +7,7 @@
  *  OBJECT
  */
 
+/*
 const book = {
     bookTitle:  'The Hobbit',
     bookAuthor: 'Tolkien',
@@ -20,5 +21,25 @@ const book = {
         console.log('Printing...')
     }
 }
+*/
 
-book.printBook();
+/**
+ * FACTORY
+ */
+
+function createBook(title, author, pages) {
+
+    const book = {
+        bookTitle:  title,
+        bookAuthor: author,
+        bookPages:  pages,
+        printBook: function() {
+            console.log('Printing...')
+        }
+    }
+
+    return book;
+}
+
+const book1 = createBook('The Hobbit', 'Tolkien', 310);
+console.log(book1);
