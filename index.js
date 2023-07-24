@@ -14,7 +14,11 @@ const book = {
     bookChapters: {
         chapter1: 'An Unexpected Party',
         chapter2: 'Roast Mutton'
+    },
+
+    printBook: function() {
+        console.log('Printing...')
     }
 }
 
-console.log(book);
+book.printBook();
