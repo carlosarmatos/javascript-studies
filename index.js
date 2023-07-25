@@ -2,6 +2,7 @@
  * PROMPT
  */
 
+/*
 let productValue = Number(prompt('Enter the product value: '));
 
 if(productValue >= 20) {
@@ -10,3 +11,11 @@ if(productValue >= 20) {
 else {
     document.getElementById('result').innerHTML = 'Denied!';
 }
+*/
+
+/**
+ * ARRAYS
+ */
+
+let friends = ['John', 'Island', 'Frankie'];
+console.log(friends);
