@@ -27,19 +27,30 @@ const book = {
  * FACTORY
  */
 
-function createBook(title, author, pages) {
+function CreateBook(title, author, pages) {
 
-    const book = {
-        bookTitle:  title,
-        bookAuthor: author,
-        bookPages:  pages,
-        printBook: function() {
-            console.log('Printing...')
-        }
-    }
+//     const book = {
+//         bookTitle:  title,
+//         bookAuthor: author,
+//         bookPages:  pages,
+//         printBook: function() {
+//             console.log('Printing...')
+//         }
+//     }
 
-    return book;
+//     return book;
+// }
+
+// const book1 = createBook('The Hobbit', 'Tolkien', 310);
+// console.log(book1);
+
+/***
+ * CONSTRUCTOR - uses 
+ */
+    this.bookTitle = title;
+    this.bookAuthor = author;
+    this.bookPages = pages
 }
 
-const book1 = createBook('The Hobbit', 'Tolkien', 310);
+const book1 = new CreateBook('The Hobbit', 'Tolkien', 310);
 console.log(book1);
