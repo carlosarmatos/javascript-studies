@@ -65,10 +65,25 @@ const book = {
 
 // Built-in String
 
-let message = 'Hello World!';
-console.log(message.startsWith('hello')); // false
-console.log(message.startsWith('Hello')); // true
-console.log(message.length);
-console.log(message.includes('Hello')); // true
-console.log(message.endsWith('e')); // false
-console.log(message.endsWith('!')); // true
+// let message = 'Hello World!';
+// console.log(message.startsWith('hello')); // false
+// console.log(message.startsWith('Hello')); // true
+// console.log(message.length);
+// console.log(message.includes('Hello')); // true
+// console.log(message.endsWith('e')); // false
+// console.log(message.endsWith('!')); // true
+
+/**
+ * TEMPLATE LITERALS
+ */
+
+let firstName = 'Frank';
+
+const email = 'Hi ' + firstName + ', \nthe meeting is confirmed! \nCloe';
+
+const email2 = `Hi ${firstName}, 
+the meeting is confirmed! 
+Cloe`;
+
+console.log(email);
+console.log(email2);
