@@ -52,11 +52,22 @@ console.log(num.includes(4));
 
 // Arrow Function
 
+/*
+
 const movies = [
     {id: 1, movieName: 'The Lord of The Rings'},
     {id: 2, movieName: 'Back To The Future'},
     {id: 3, movieName: 'The Matrix'}
 ];
 
-
 console.log(movies.find(movie => movie.movieName == 'The Lord of The Rings'));
+
+*/
+
+// Removing items from an Array
+
+// const num = [5, 6, 7, 8];
+// const final = num.pop(); // Removes the last element
+// const final = num.shift(); // Removes the first element
+// const final = num.splice(2, 1); // From index 2, remove 1 item
+// console.log(num);
