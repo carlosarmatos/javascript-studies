@@ -28,11 +28,29 @@ num.splice(3, 0, 4, 5, 6); // Start index (3), how many you want to delete (0) a
 console.log(num);
 */
 
+
+// Primitive Array
+
 /*
 const num = [6, 7, 8, 9];
 console.log(num.indexOf(8));
 console.log(num.includes(4));
 */
+
+// Reference Array
+
+// const movies = [
+//     {id: 1, movieName: 'The Lord of The Rings'},
+//     {id: 2, movieName: 'Back To The Future'},
+//     {id: 3, movieName: 'The Matrix'}
+// ];
+
+// console.log(movies);
+// console.log(movies.find(function(movie) {
+//     return movie.movieName == 'The Lord of The Rings';
+// }))
+
+// Arrow Function
 
 const movies = [
     {id: 1, movieName: 'The Lord of The Rings'},
@@ -40,7 +58,5 @@ const movies = [
     {id: 3, movieName: 'The Matrix'}
 ];
 
-console.log(movies);
-console.log(movies.find(function(movie) {
-    return movie.movieName == 'The Lord of The Rings';
-}))
+
+console.log(movies.find(movie => movie.movieName == 'The Lord of The Rings'));
