@@ -17,5 +17,11 @@ else {
  * ARRAYS
  */
 
-let friends = ['John', 'Island', 'Frankie'];
-console.log(friends);
+// let friends = ['John', 'Island', 'Frankie'];
+// console.log(friends);
+
+const num = [7, 8, 9];
+num.push(10, 11, 12); // add new elements to the end of an Array
+num.unshift(1, 2, 3); // add numbers at the start of an Array
+num.splice(3, 0, 4, 5, 6); // Start index (3), how many you want to delete (0) and what you are going to add (4, 5, 6)
+console.log(num);
