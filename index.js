@@ -34,3 +34,13 @@ console.log(num.indexOf(8));
 console.log(num.includes(4));
 */
 
+const movies = [
+    {id: 1, movieName: 'The Lord of The Rings'},
+    {id: 2, movieName: 'Back To The Future'},
+    {id: 3, movieName: 'The Matrix'}
+];
+
+console.log(movies);
+console.log(movies.find(function(movie) {
+    return movie.movieName == 'The Lord of The Rings';
+}))
