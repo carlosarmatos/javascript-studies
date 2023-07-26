@@ -80,3 +80,16 @@ console.log(movies.find(movie => movie.movieName == 'The Lord of The Rings'));
 // num = []; // Empty
 // num.length = 0; // Empty
 // num.splice(0, num.length); // Empty
+
+
+// Concatenating an Array
+
+/*
+let numbers = [5, 6, 7, 8];
+let letters = ['a', 'b', 'c'];
+
+let all = numbers.concat(letters);
+let half = all.slice(3, 5);
+console.log(all);
+console.log(half);
+*/
