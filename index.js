@@ -93,3 +93,14 @@ let half = all.slice(3, 5);
 console.log(all);
 console.log(half);
 */
+
+// Using join Array
+
+/*
+let clients = ['Mariah', 'Cleopatra', 'Anthony'];
+
+console.log(clients);
+
+let clientsJoin = clients.join(', ');
+console.log(clientsJoin);
+*/
