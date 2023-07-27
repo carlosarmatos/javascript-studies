@@ -104,3 +104,11 @@ console.log(clients);
 let clientsJoin = clients.join(', ');
 console.log(clientsJoin);
 */
+
+
+// Reversing an Array
+
+let clients = ['Mariah', 'Cleopatra', 'Anthony'];
+// clients.sort(); // Alphabetical order
+clients.reverse(); // Reverse
+console.log(clients);
