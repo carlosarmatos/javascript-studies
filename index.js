@@ -108,7 +108,16 @@ console.log(clientsJoin);
 
 // Reversing an Array
 
-let clients = ['Mariah', 'Cleopatra', 'Anthony'];
+// let clients = ['Mariah', 'Cleopatra', 'Anthony'];
 // clients.sort(); // Alphabetical order
-clients.reverse(); // Reverse
-console.log(clients);
+// clients.reverse(); // Reverse
+// console.log(clients);
+
+// Verifying objects into an Array
+
+const tempBrazil = [18, 25, 11, 30, 0, -1];
+const tempPositive = tempBrazil.every(function(value) {
+    return value >= 0;
+})
+
+console.log(tempPositive);
