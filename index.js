@@ -113,11 +113,18 @@ console.log(clientsJoin);
 // clients.reverse(); // Reverse
 // console.log(clients);
 
-// Verifying objects into an Array
+// Checking elements in an Array
+
+// const tempBrazil = [18, 25, 11, 30, 0, -1];
+// const tempPositive = tempBrazil.every(function(value) {
+//     return value >= 0;
+// })
+
+// console.log(tempPositive);
+
+// Using Filter to filter an Array to return value according to function
 
 const tempBrazil = [18, 25, 11, 30, 0, -1];
-const tempPositive = tempBrazil.every(function(value) {
-    return value >= 0;
-})
+const tempPositive = tempBrazil.filter(value => value >= 0) 
 
 console.log(tempPositive);
