@@ -1,15 +1,8 @@
-// Function declaration
+function price(price1, price2) {
+    let total = 0;
+    for (let value of arguments)
+        total += value
+        return total;
+    }
 
-function movie() {
-    console.log('The Matrix');
-}
-
-movie();
-
-// Function expression
-
-const car = function() {
-    console.log('BMW');
-}
-
-car();
+console.log(price(10, 5, 5));
